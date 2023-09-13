@@ -9,6 +9,7 @@
 * A user can add one or more members to a group
 * A user can message in a group
 * A user should not see the message before the joining date in a group
+* A group can have one or more admins
 * Users can disable their profile and the message of an inactive user are still visible
 
 
