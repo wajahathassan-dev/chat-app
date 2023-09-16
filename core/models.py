@@ -56,6 +56,9 @@ class UserGroup(models.Model):
     role                 =   models.CharField(max_length=255, choices=ROLE_CHOICES, default=DEFAULT_ROLE)
     added_at             =   models.DateTimeField(auto_now_add=True)
 
+    class Meta:
+        unique_together = ('user', 'group')
+
 
 # GroupMessage
 
